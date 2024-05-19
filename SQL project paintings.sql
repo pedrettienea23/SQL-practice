@@ -1,3 +1,5 @@
+-- Data: https://www.kaggle.com/datasets/mexwell/famous-paintings
+
 select * from artist
 select * from canvas_size
 select * from image_link
