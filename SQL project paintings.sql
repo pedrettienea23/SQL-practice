@@ -1,5 +1,5 @@
 -- Data: https://www.kaggle.com/datasets/mexwell/famous-paintings
-'''sql
+```sql
 select * from artist
 select * from canvas_size
 select * from image_link
@@ -8,7 +8,7 @@ select * from museum_hours
 select * from product_size
 select * from subject
 select * from work
-'''
+
 -- Which museums are open on both Sunday and Monday?
 select museum.name as museum_name, museum.city from museum_hours mh1
 join museum on museum.museum_id = mh1.museum_id -- In order to display the museum name and city
@@ -48,3 +48,4 @@ where sale_price > regular_price
 -- How many paintings have an asking price less than 50% of their regular price?
 Select * from product_size
 where sale_price < (0.5 * regular_price)
+```
