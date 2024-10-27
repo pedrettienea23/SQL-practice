@@ -11,7 +11,6 @@ select * from museum
 select * from museum_hours
 select * from product_size
 select * from subject
-```
 -- Which museums are open on both Sunday and Monday?
 select museum.name as museum_name, museum.city from museum_hours mh1
 join museum on museum.museum_id = mh1.museum_id -- In order to display the museum name and city
