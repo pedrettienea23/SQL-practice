@@ -1,3 +1,4 @@
+'''sql
 -- Data: https://www.kaggle.com/datasets/mexwell/famous-paintings
 
 select * from artist
@@ -48,3 +49,4 @@ where sale_price > regular_price
 -- How many paintings have an asking price less than 50% of their regular price?
 Select * from product_size
 where sale_price < (0.5 * regular_price)
+'''
